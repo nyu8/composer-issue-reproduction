@@ -1,0 +1,21 @@
+{
+    "name": "nyu8/composer-issue-reproduction",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nyu8\\ComposerIssueReproduction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NYU8",
+            "email": "dev@nyu8.com"
+        }
+    ],
+    "require": {},
+    "repositories": [{
+            "type": "path",
+            "url": "packages/*"
+        }]
+}
