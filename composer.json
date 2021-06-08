@@ -13,7 +13,9 @@
             "email": "dev@nyu8.com"
         }
     ],
-    "require": {},
+    "require": {
+        "nyu8/flarum-auth0": "*"
+    },
     "repositories": [{
             "type": "path",
             "url": "packages/*"
