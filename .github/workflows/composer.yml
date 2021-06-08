@@ -26,6 +26,10 @@ jobs:
           key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
           restore-keys: |
             ${{ runner.os }}-php-
+      
+      - name: Composer diagnose
+        run: |
+          composer diagnose
 
       - name: Install dependencies
         run: |
